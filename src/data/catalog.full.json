@@ -1,0 +1,5190 @@
+{
+  "catalogVersion": 2,
+  "status": "source-transcribed",
+  "sourceDocument": "Формулы ЕГЭ (обновленные).docx",
+  "sections": [
+    {
+      "id": "mechanics",
+      "title": "Механика",
+      "icon": "orbit",
+      "color": "#B8EF79"
+    },
+    {
+      "id": "thermodynamics",
+      "title": "Молекулярная физика и термодинамика",
+      "icon": "thermometer",
+      "color": "#FFBC91"
+    },
+    {
+      "id": "electricity",
+      "title": "Электромагнитные явления",
+      "icon": "zap",
+      "color": "#A9C7FF"
+    },
+    {
+      "id": "optics",
+      "title": "Оптика",
+      "icon": "sun",
+      "color": "#F6D486"
+    },
+    {
+      "id": "quantum",
+      "title": "Квантовая физика",
+      "icon": "atom",
+      "color": "#D9BDFF"
+    }
+  ],
+  "topics": [
+    {
+      "id": "kinematics",
+      "sectionId": "mechanics",
+      "title": "Кинематика"
+    },
+    {
+      "id": "dynamics",
+      "sectionId": "mechanics",
+      "title": "Динамика"
+    },
+    {
+      "id": "statics",
+      "sectionId": "mechanics",
+      "title": "Статика"
+    },
+    {
+      "id": "conservation",
+      "sectionId": "mechanics",
+      "title": "Законы сохранения"
+    },
+    {
+      "id": "mechanical-waves",
+      "sectionId": "mechanics",
+      "title": "Механические колебания и волны"
+    },
+    {
+      "id": "molecular",
+      "sectionId": "thermodynamics",
+      "title": "Молекулярная физика"
+    },
+    {
+      "id": "thermo",
+      "sectionId": "thermodynamics",
+      "title": "Термодинамика"
+    },
+    {
+      "id": "electrostatics",
+      "sectionId": "electricity",
+      "title": "Электростатика"
+    },
+    {
+      "id": "current",
+      "sectionId": "electricity",
+      "title": "Постоянный ток"
+    },
+    {
+      "id": "magnetism",
+      "sectionId": "electricity",
+      "title": "Магнитное поле"
+    },
+    {
+      "id": "electromagnetic-waves",
+      "sectionId": "electricity",
+      "title": "Электромагнитные колебания и волны"
+    },
+    {
+      "id": "geometric-optics",
+      "sectionId": "optics",
+      "title": "Оптика"
+    },
+    {
+      "id": "quantum-basics",
+      "sectionId": "quantum",
+      "title": "Квантовая физика"
+    }
+  ],
+  "formulas": [
+    {
+      "id": "kinematics-4-peremeschenie-pri-ravnomernom-dvizhenii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Перемещение при равномерном движении",
+      "latex": "\\vec{s}=\\vec{v}t",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "s",
+          "meaning": "путь, перемещение",
+          "unit": "м",
+          "sourceParagraph": 6
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "kinematics-21-koordinata-pri-ravnomernom-dvizhenii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Координата при равномерном движении",
+      "latex": "x={x}_{0}+{v}_{x}t",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "x",
+          "meaning": "координата",
+          "unit": "м",
+          "sourceParagraph": 14
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": "kinematics-24-peremeschenie-pri-ravnouskorennom-dvizhenii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Перемещение при равноускоренном движении",
+      "latex": "\\vec{s}=\\vec{{v}_{0}}t+\\frac{\\vec{a }{t}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "s",
+          "meaning": "путь, перемещение",
+          "unit": "м",
+          "sourceParagraph": 6
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": "kinematics-27-koordinata-pri-ravnouskorennom-dvizhenii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Координата при равноускоренном движении",
+      "latex": "x={x}_{0}+{v}_{0x}\\cdot t+\\frac{{a}_{x}{t}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "x",
+          "meaning": "координата",
+          "unit": "м",
+          "sourceParagraph": 14
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "kinematics-30-dopolnitelnye-formuly-dlya-puti-pri-pryamolineynom-ravnousko",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Дополнительные формулы для пути при прямолинейном равноускоренном движении в одном направлении",
+      "latex": "\\begin{gathered}s=\\frac{{v}^{2}-{v}_{0}^{2}}{2a}\\\\s=\\frac{v+{v}_{0}}{2}t\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "s",
+          "meaning": "путь, перемещение",
+          "unit": "м",
+          "sourceParagraph": 6
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        30,
+        32,
+        33
+      ]
+    },
+    {
+      "id": "kinematics-35-uskorenie-pri-ravnouskorennom-dvizhenii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Ускорение при равноускоренном движении",
+      "latex": "\\vec{a}=\\frac{\\vec{v}-{\\vec{v}}_{0}}{t}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        35,
+        36
+      ]
+    },
+    {
+      "id": "kinematics-38-srednyaya-skorost",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Средняя скорость",
+      "latex": "v=\\frac{s}{t}=\\frac{{s}_{1}+{s}_{2}+\\ldots }{{t}_{1}+{t}_{2}+\\ldots }",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "s",
+          "meaning": "путь, перемещение",
+          "unit": "м",
+          "sourceParagraph": 6
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        38,
+        39
+      ]
+    },
+    {
+      "id": "kinematics-41-tsentrostremitelnoe-uskorenie",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Центростремительное ускорение",
+      "latex": "a=\\frac{{v}^{2}}{r}",
+      "symbols": [
+        {
+          "symbol": "r",
+          "meaning": "радиус окружности",
+          "unit": "м",
+          "sourceParagraph": 15
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": "kinematics-44-uglovaya-skorost",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Угловая скорость",
+      "latex": "\\begin{gathered}\\omega =\\frac{\\Delta \\varphi }{t}\\\\\\omega =\\frac{2\\pi }{T}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\Delta \\varphi",
+          "meaning": "изменение угла поворота",
+          "unit": "рад",
+          "sourceParagraph": 17
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "угловая скорость",
+          "sourceParagraph": 16
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        },
+        {
+          "symbol": "T",
+          "meaning": "период обращения",
+          "unit": "с",
+          "sourceParagraph": 53
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        44,
+        45
+      ]
+    },
+    {
+      "id": "kinematics-47-lineynaya-skorost",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Линейная скорость",
+      "latex": "\\begin{gathered}v=\\frac{2\\pi r}{T}\\\\v=\\omega r\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\omega",
+          "meaning": "угловая скорость",
+          "sourceParagraph": 16
+        },
+        {
+          "symbol": "r",
+          "meaning": "радиус окружности",
+          "unit": "м",
+          "sourceParagraph": 15
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "T",
+          "meaning": "период обращения",
+          "unit": "с",
+          "sourceParagraph": 53
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "kinematics-51-period-obrascheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Период обращения",
+      "latex": "\\begin{gathered}T=\\frac{t}{n}\\\\T=\\frac{1}{\\nu }\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "частота обращения",
+          "unit": "с⁻¹",
+          "sourceParagraph": 55
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "n",
+          "meaning": "количество полных оборотов",
+          "unit": "-",
+          "sourceParagraph": 54
+        },
+        {
+          "symbol": "T",
+          "meaning": "период обращения",
+          "unit": "с",
+          "sourceParagraph": 53
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        51,
+        52
+      ]
+    },
+    {
+      "id": "kinematics-57-chastota-obrascheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Частота обращения",
+      "latex": "\\begin{gathered}\\nu =\\frac{n}{t}\\\\\\nu =\\frac{1}{T}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "частота обращения",
+          "unit": "с⁻¹",
+          "sourceParagraph": 55
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "n",
+          "meaning": "количество полных оборотов",
+          "unit": "-",
+          "sourceParagraph": 54
+        },
+        {
+          "symbol": "T",
+          "meaning": "период обращения",
+          "unit": "с",
+          "sourceParagraph": 53
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        57,
+        58
+      ]
+    },
+    {
+      "id": "kinematics-60-svyaz-mezhdu-kinematicheskimi-velichinami-cherez-proizvodnye",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Связь между кинематическими величинами через производные",
+      "latex": "\\begin{gathered}{a}_{x}\\left( t \\right)={v}_{x}^{'}\\left( t \\right)={s}_{x}^{''}(t)\\\\{v}_{x}\\left( t \\right)={s}_{x}^{'}\\left( t \\right)\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "s",
+          "meaning": "путь, перемещение",
+          "unit": "м",
+          "sourceParagraph": 6
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 13
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "id": "kinematics-64-primenenie-uravneniy-kinematiki-dlya-svobodnogo-padeniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "kinematics"
+      ],
+      "subtopic": "Кинематика",
+      "title": "Применение уравнений кинематики для свободного падения",
+      "latex": "\\begin{gathered}x={x}_{0}+{v}_{0x}t\\\\L={v}_{0x}t\\\\h={h}_{0}+{v}_{0y}t-\\frac{g{t}^{2}}{2}\\\\{v}_{x}={v}_{0x}\\\\{v}_{y}={v}_{0y}-gt\\\\{v}_{0x}={v}_{0}\\cos \\alpha\\\\{v}_{0y}={v}_{0}\\sin \\alpha\\\\{v}_{0}^{2}={v}_{0x}^{2}+{v}_{0y}^{2}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "h",
+          "meaning": "конечная высота (м)",
+          "unit": "м",
+          "sourceParagraph": 79
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "L",
+          "meaning": "дальность полета",
+          "unit": "м",
+          "sourceParagraph": 78
+        },
+        {
+          "symbol": "x",
+          "meaning": "координата",
+          "unit": "м",
+          "sourceParagraph": 14
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 8
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        64,
+        65,
+        66,
+        67,
+        69,
+        70,
+        72,
+        73,
+        75
+      ]
+    },
+    {
+      "id": "dynamics-88-massa-tela",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Масса тела",
+      "latex": "m=\\rho V",
+      "symbols": [
+        {
+          "symbol": "\\rho",
+          "meaning": "плотность",
+          "unit": "кг/м³",
+          "sourceParagraph": 92
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "V",
+          "meaning": "объем",
+          "unit": "м³",
+          "sourceParagraph": 94
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        88,
+        90
+      ]
+    },
+    {
+      "id": "dynamics-114-vtoroy-zakon-nyutona",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Второй закон Ньютона",
+      "latex": "\\vec{F}=m\\vec{a}",
+      "symbols": [
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 96
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        114,
+        116
+      ]
+    },
+    {
+      "id": "dynamics-118-zakon-guka-sila-uprugosti",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Закон Гука (сила упругости)",
+      "latex": "{F}_{\\text{упр}}=k\\Delta l",
+      "symbols": [
+        {
+          "symbol": "\\Delta l",
+          "meaning": "величина деформации",
+          "unit": "м",
+          "sourceParagraph": 98
+        },
+        {
+          "symbol": "k",
+          "meaning": "жесткость",
+          "unit": "Н/м",
+          "sourceParagraph": 97
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        118,
+        120
+      ]
+    },
+    {
+      "id": "dynamics-122-sila-treniya-skolzheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Сила трения скольжения",
+      "latex": "{F}_{\\text{тр}}=\\mu N",
+      "symbols": [
+        {
+          "symbol": "\\mu",
+          "meaning": "коэффициент трения",
+          "unit": "-",
+          "sourceParagraph": 99
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "N",
+          "meaning": "сила реакции опоры",
+          "unit": "Н",
+          "sourceParagraph": 100
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        122,
+        124
+      ]
+    },
+    {
+      "id": "dynamics-126-sila-tyazhesti",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Сила тяжести",
+      "latex": "{F}_{\\text{тяж}}=mg",
+      "symbols": [
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        126,
+        128
+      ]
+    },
+    {
+      "id": "dynamics-130-ves-dlya-gorizontalnoy-poverhnosti",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Вес (для горизонтальной поверхности)",
+      "latex": "P=m(g+{a}_{y})",
+      "symbols": [
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "P",
+          "meaning": "вес тела",
+          "unit": "Н",
+          "sourceParagraph": 101
+        },
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "a",
+          "meaning": "ускорение",
+          "unit": "м/с²",
+          "sourceParagraph": 96
+        }
+      ],
+      "conditions": "Не входит в кодификатор!",
+      "explanation": "Не входит в кодификатор!",
+      "source": "verified",
+      "sourceParagraphs": [
+        130,
+        132
+      ]
+    },
+    {
+      "id": "dynamics-134-sila-vsemirnogo-tyagoteniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Сила всемирного тяготения",
+      "latex": "\\begin{gathered}{F}_{\\text{ВТ}}=\\frac{G{m}_{1}{m}_{2}}{{r}^{2}}\\\\r=R+h\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "R",
+          "meaning": "радиус планеты",
+          "unit": "м",
+          "sourceParagraph": 105
+        },
+        {
+          "symbol": "G",
+          "meaning": "гравитационная постоянная ([\\frac{Н\\cdot {м}^{2}}{{кг}^{2}}])",
+          "unit": "Н·м²/кг²",
+          "sourceParagraph": 103
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "h",
+          "meaning": "высота над поверхностью планеты",
+          "unit": "м",
+          "sourceParagraph": 106
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние от центра планеты до тела (для малых тел размерами тел пренебрегают)",
+          "unit": "м",
+          "sourceParagraph": 104
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "id": "dynamics-138-uskorenie-svobodnogo-padeniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Ускорение свободного падения",
+      "latex": "g=\\frac{GM}{{r}^{2}}",
+      "symbols": [
+        {
+          "symbol": "G",
+          "meaning": "гравитационная постоянная ([\\frac{Н\\cdot {м}^{2}}{{кг}^{2}}])",
+          "unit": "Н·м²/кг²",
+          "sourceParagraph": 103
+        },
+        {
+          "symbol": "M",
+          "meaning": "масса планеты",
+          "unit": "кг",
+          "sourceParagraph": 107
+        },
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние от центра планеты до тела (для малых тел размерами тел пренебрегают)",
+          "unit": "м",
+          "sourceParagraph": 104
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        138,
+        139
+      ]
+    },
+    {
+      "id": "dynamics-141-pervaya-kosmicheskaya-skorost",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Первая космическая скорость",
+      "latex": "{v}_{1}=\\sqrt{\\frac{GM}{r}}",
+      "symbols": [
+        {
+          "symbol": "{v}_{1}",
+          "meaning": "первая космическая скорость",
+          "unit": "м/с",
+          "sourceParagraph": 108
+        },
+        {
+          "symbol": "G",
+          "meaning": "гравитационная постоянная ([\\frac{Н\\cdot {м}^{2}}{{кг}^{2}}])",
+          "unit": "Н·м²/кг²",
+          "sourceParagraph": 103
+        },
+        {
+          "symbol": "M",
+          "meaning": "масса планеты",
+          "unit": "кг",
+          "sourceParagraph": 107
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние от центра планеты до тела (для малых тел размерами тел пренебрегают)",
+          "unit": "м",
+          "sourceParagraph": 104
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        141,
+        142
+      ]
+    },
+    {
+      "id": "dynamics-144-davlenie",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "dynamics"
+      ],
+      "subtopic": "Динамика",
+      "title": "Давление",
+      "latex": "p=\\frac{{F}_{n}}{S}",
+      "symbols": [
+        {
+          "symbol": "{F}_{n}",
+          "meaning": "сила нормального давления",
+          "unit": "Н",
+          "sourceParagraph": 110
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление (Па), не путать с плотностью!",
+          "unit": "Па",
+          "sourceParagraph": 109
+        },
+        {
+          "symbol": "S",
+          "meaning": "площадь поверхности",
+          "unit": "м²",
+          "sourceParagraph": 111
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        144,
+        145
+      ]
+    },
+    {
+      "id": "statics-150-polnoe-davlenie-v-zhidkosti",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "statics"
+      ],
+      "subtopic": "Статика",
+      "title": "Полное давление в жидкости",
+      "latex": "p={p}_{\\text{гид}}+{p}_{\\text{атм}}",
+      "symbols": [
+        {
+          "symbol": "{p}_{\\text{гид}}",
+          "meaning": "давление столба жидкости (гидростатическое)",
+          "unit": "Па",
+          "sourceParagraph": 152
+        },
+        {
+          "symbol": "{p}_{\\text{атм}}",
+          "meaning": "атмосферное давление (Па)",
+          "unit": "Па",
+          "sourceParagraph": 153
+        },
+        {
+          "symbol": "p",
+          "meaning": "полное давление в жидкости",
+          "sourceParagraph": 150
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        150,
+        151
+      ]
+    },
+    {
+      "id": "statics-160-gidrostaticheskoe-davlenie",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "statics"
+      ],
+      "subtopic": "Статика",
+      "title": "Гидростатическое давление",
+      "latex": "{p}_{\\text{гид}}={\\rho }_{\\text{ж}}gh",
+      "symbols": [
+        {
+          "symbol": "{\\rho }_{\\text{ж}}",
+          "meaning": "плотность жидкости",
+          "unit": "кг/м³",
+          "sourceParagraph": 154
+        },
+        {
+          "symbol": "{p}_{\\text{гид}}",
+          "meaning": "давление столба жидкости (гидростатическое)",
+          "unit": "Па",
+          "sourceParagraph": 152
+        },
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "h",
+          "meaning": "глубина",
+          "unit": "м",
+          "sourceParagraph": 155
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        160,
+        161
+      ]
+    },
+    {
+      "id": "statics-163-vytalkivayuschaya-arhimedova-sila",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "statics"
+      ],
+      "subtopic": "Статика",
+      "title": "Выталкивающая (архимедова) сила",
+      "latex": "{F}_{A}={\\rho }_{\\text{ж}}g{V}_{\\text{пт}}",
+      "symbols": [
+        {
+          "symbol": "{\\rho }_{\\text{ж}}",
+          "meaning": "плотность жидкости",
+          "unit": "кг/м³",
+          "sourceParagraph": 154
+        },
+        {
+          "symbol": "{V}_{\\text{пт}}",
+          "meaning": "объем погруженной части тела",
+          "unit": "м³",
+          "sourceParagraph": 156
+        },
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 159
+        },
+        {
+          "symbol": "{F}_{A}",
+          "meaning": "выталкивающая (архимедова) сила",
+          "sourceParagraph": 163
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        163,
+        164
+      ]
+    },
+    {
+      "id": "statics-166-moment-sily",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "statics"
+      ],
+      "subtopic": "Статика",
+      "title": "Момент силы",
+      "latex": "M=Fl",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 159
+        },
+        {
+          "symbol": "M",
+          "meaning": "момент силы",
+          "sourceParagraph": 157
+        },
+        {
+          "symbol": "l",
+          "meaning": "плечо силы",
+          "unit": "м",
+          "sourceParagraph": 158
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        166,
+        167
+      ]
+    },
+    {
+      "id": "statics-169-usloviya-ravnovesiya-tverdogo-tela",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "statics"
+      ],
+      "subtopic": "Статика",
+      "title": "Условия равновесия твердого тела",
+      "latex": "\\begin{gathered}\\vec{F}=0\\\\{M}_{1}+{M}_{2}+\\ldots =0\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 159
+        },
+        {
+          "symbol": "M",
+          "meaning": "момент силы",
+          "sourceParagraph": 157
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        169,
+        170,
+        171
+      ]
+    },
+    {
+      "id": "conservation-176-impuls-tela",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Импульс тела",
+      "latex": "\\vec{p}=m\\vec{v}",
+      "symbols": [
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 187
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "p",
+          "meaning": "импульс тела",
+          "unit": "кг· м/с",
+          "sourceParagraph": 178
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        176,
+        177
+      ]
+    },
+    {
+      "id": "conservation-191-impuls-sily-izmenenie-impulsa-tela",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Импульс силы (изменение импульса тела)",
+      "latex": "\\Delta \\vec{p}=\\vec{F}t",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "p",
+          "meaning": "импульс тела",
+          "unit": "кг· м/с",
+          "sourceParagraph": 178
+        },
+        {
+          "symbol": "\\Delta p",
+          "meaning": "импульс силы",
+          "unit": "Н·с",
+          "sourceParagraph": 179
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        191,
+        192
+      ]
+    },
+    {
+      "id": "conservation-194-zakon-sohraneniya-impulsa",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Закон сохранения импульса",
+      "latex": "\\vec{{p}_{1\\text{н}}}+\\vec{{p}_{2\\text{н}}}+\\ldots =\\vec{{p}_{1\\text{к}}}+\\vec{{p}_{2\\text{к}}}+\\ldots",
+      "symbols": [
+        {
+          "symbol": "p",
+          "meaning": "импульс тела",
+          "unit": "кг· м/с",
+          "sourceParagraph": 178
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        194,
+        195
+      ]
+    },
+    {
+      "id": "conservation-197-polnaya-mehanicheskaya-energiya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Полная механическая энергия",
+      "latex": "E={E}_{\\text{к}}+{E}_{\\text{п}}",
+      "symbols": [
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        197,
+        198
+      ]
+    },
+    {
+      "id": "conservation-200-kineticheskaya-energiya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Кинетическая энергия",
+      "latex": "{E}_{\\text{к}}=\\frac{m{v}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 187
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        200,
+        201
+      ]
+    },
+    {
+      "id": "conservation-203-potentsialnaya-energiya-podnyatogo-tela",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Потенциальная энергия поднятого тела",
+      "latex": "{E}_{\\text{п}}=mgh",
+      "symbols": [
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса",
+          "unit": "кг",
+          "sourceParagraph": 91
+        },
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        203,
+        204
+      ]
+    },
+    {
+      "id": "conservation-206-potentsialnaya-energiya-uprugoy-deformatsii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Потенциальная энергия упругой деформации",
+      "latex": "{E}_{\\text{п}}=\\frac{k{\\Delta l}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "k",
+          "meaning": "жесткость",
+          "unit": "Н/м",
+          "sourceParagraph": 97
+        },
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        206,
+        207
+      ]
+    },
+    {
+      "id": "conservation-209-zakon-izmeneniya-energii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Закон изменения энергии",
+      "latex": "\\Delta E={A}_{\\text{сопр}}+{A}_{ex}",
+      "symbols": [
+        {
+          "symbol": "{A}_{\\text{сопр}}",
+          "meaning": "работа сил сопротивления",
+          "unit": "Дж",
+          "sourceParagraph": 183
+        },
+        {
+          "symbol": "{A}_{ex}",
+          "meaning": "работа внешних сил",
+          "unit": "Дж",
+          "sourceParagraph": 184
+        },
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        209,
+        210
+      ]
+    },
+    {
+      "id": "conservation-212-zakon-sohraneniya-energii",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Закон сохранения энергии",
+      "latex": "{E}_{\\text{к}1}+{E}_{\\text{п}1}={E}_{\\text{к}2}+{E}_{\\text{п}2}",
+      "symbols": [
+        {
+          "symbol": "E",
+          "meaning": "энергия",
+          "unit": "Дж",
+          "sourceParagraph": 180
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        212,
+        213
+      ]
+    },
+    {
+      "id": "conservation-215-mehanicheskaya-rabota",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Механическая работа",
+      "latex": "A=Fscos\\alpha",
+      "symbols": [
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол между векторами силы и перемещения",
+          "sourceParagraph": 185
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "A",
+          "meaning": "механическая работа",
+          "unit": "Дж",
+          "sourceParagraph": 181
+        },
+        {
+          "symbol": "s",
+          "meaning": "модуль перемещения",
+          "unit": "м",
+          "sourceParagraph": 182
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        215,
+        216
+      ]
+    },
+    {
+      "id": "conservation-218-mehanicheskaya-moschnost-moschnost-sily",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Механическая мощность (мощность силы)",
+      "latex": "N=\\frac{A}{t}",
+      "symbols": [
+        {
+          "symbol": "A",
+          "meaning": "механическая работа",
+          "unit": "Дж",
+          "sourceParagraph": 181
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "N",
+          "meaning": "механическая мощность",
+          "unit": "Вт",
+          "sourceParagraph": 186
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        218,
+        219
+      ]
+    },
+    {
+      "id": "conservation-221-mehanicheskaya-moschnost-pri-dvizhenii-s-postoyannoy-skorost",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "Механическая мощность при движении с постоянной скоростью",
+      "latex": "N=Fvcos\\alpha",
+      "symbols": [
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол между векторами силы и перемещения",
+          "sourceParagraph": 185
+        },
+        {
+          "symbol": "F",
+          "meaning": "равнодействующая сила",
+          "unit": "Н",
+          "sourceParagraph": 95
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость",
+          "unit": "м/с",
+          "sourceParagraph": 187
+        },
+        {
+          "symbol": "s",
+          "meaning": "модуль перемещения",
+          "unit": "м",
+          "sourceParagraph": 182
+        },
+        {
+          "symbol": "N",
+          "meaning": "механическая мощность",
+          "unit": "Вт",
+          "sourceParagraph": 186
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        221,
+        222
+      ]
+    },
+    {
+      "id": "conservation-224-kpd",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "conservation"
+      ],
+      "subtopic": "Законы сохранения",
+      "title": "КПД",
+      "latex": "\\eta =\\frac{{A}_{\\text{п}}}{{A}_{\\text{з}}}",
+      "symbols": [
+        {
+          "symbol": "{A}_{\\text{з}}",
+          "meaning": "затраченная работа",
+          "unit": "Дж",
+          "sourceParagraph": 190
+        },
+        {
+          "symbol": "{A}_{\\text{п}}",
+          "meaning": "полезная работа",
+          "unit": "Дж",
+          "sourceParagraph": 189
+        },
+        {
+          "symbol": "\\eta",
+          "meaning": "КПД",
+          "unit": "-",
+          "sourceParagraph": 188
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        224,
+        225
+      ]
+    },
+    {
+      "id": "mechanical-waves-231-uravnenie-kolebatelnogo-dvizheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Уравнение колебательного движения",
+      "latex": "\\begin{gathered}x=A\\cdot  \\cos (\\omega t+{\\varphi }_{0})\\\\x=A\\cdot  \\sin (\\omega t+{\\varphi }_{0})\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{0}",
+          "meaning": "начальная фаза",
+          "unit": "рад",
+          "sourceParagraph": 238
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 246
+        },
+        {
+          "symbol": "A",
+          "meaning": "амплитуда колебаний",
+          "unit": "м",
+          "sourceParagraph": 236
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        },
+        {
+          "symbol": "x",
+          "meaning": "координата тела (смещение)",
+          "unit": "м",
+          "sourceParagraph": 235
+        }
+      ],
+      "conditions": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения.; Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "explanation": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения. Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "source": "verified",
+      "sourceParagraphs": [
+        231,
+        232,
+        234
+      ]
+    },
+    {
+      "id": "mechanical-waves-252-skorost-kolebatelnogo-dvizheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Скорость колебательного движения",
+      "latex": "\\begin{gathered}{v}_{x}=-A \\omega \\cdot \\sin (\\omega t+{\\varphi }_{0})\\\\{v}_{x}=A \\omega \\cdot \\cos (\\omega t+{\\varphi }_{0})\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{0}",
+          "meaning": "начальная фаза",
+          "unit": "рад",
+          "sourceParagraph": 238
+        },
+        {
+          "symbol": "{v}_{x}",
+          "meaning": "проекция скорости",
+          "unit": "м/с",
+          "sourceParagraph": 239
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 246
+        },
+        {
+          "symbol": "A",
+          "meaning": "амплитуда колебаний",
+          "unit": "м",
+          "sourceParagraph": 236
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        }
+      ],
+      "conditions": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения.; Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "explanation": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения. Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "source": "verified",
+      "sourceParagraphs": [
+        252,
+        253,
+        255
+      ]
+    },
+    {
+      "id": "mechanical-waves-257-uskorenie-kolebatelnogo-dvizheniya",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Ускорение колебательного движения",
+      "latex": "\\begin{gathered}{a}_{x}=-A {\\omega }^{2}\\cdot \\cos (\\omega t+{\\varphi }_{0})\\\\{a}_{x}=-A {\\omega }^{2}\\cdot \\sin (\\omega t+{\\varphi }_{0})\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{0}",
+          "meaning": "начальная фаза",
+          "unit": "рад",
+          "sourceParagraph": 238
+        },
+        {
+          "symbol": "{a}_{x}",
+          "meaning": "проекция ускорения",
+          "sourceParagraph": 240
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 246
+        },
+        {
+          "symbol": "A",
+          "meaning": "амплитуда колебаний",
+          "unit": "м",
+          "sourceParagraph": 236
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        }
+      ],
+      "conditions": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения.; Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "explanation": "Первое уравнение выбирается, если колебания начинаются из положения максимального отклонения. Второе уравнение выбирается, если колебания начинаются из положения равновесия.",
+      "source": "verified",
+      "sourceParagraphs": [
+        257,
+        258,
+        260
+      ]
+    },
+    {
+      "id": "mechanical-waves-262-period-kolebaniy",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Период колебаний",
+      "latex": "\\begin{gathered}T=\\frac{t}{n}\\\\T=\\frac{1}{\\nu }\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "частота колебаний",
+          "unit": "Гц",
+          "sourceParagraph": 242
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        262,
+        263
+      ]
+    },
+    {
+      "id": "mechanical-waves-265-chastota-kolebaniy",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves",
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Частота колебаний",
+      "latex": "\\begin{gathered}\\nu =\\frac{n}{t}\\\\\\nu =\\frac{1}{T}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "частота колебаний",
+          "unit": "Гц",
+          "sourceParagraph": 242
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        265,
+        266,
+        621,
+        622
+      ]
+    },
+    {
+      "id": "mechanical-waves-268-period-kolebaniy-nityanogo-mayatnika",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Период колебаний нитяного маятника",
+      "latex": "T=2\\pi \\sqrt{\\frac{l}{g}}",
+      "symbols": [
+        {
+          "symbol": "g",
+          "meaning": "ускорение свободного падения ([м/{с}^{2}])",
+          "unit": "м/с²",
+          "sourceParagraph": 102
+        },
+        {
+          "symbol": "l",
+          "meaning": "длина нити маятника",
+          "unit": "м",
+          "sourceParagraph": 243
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        268,
+        269
+      ]
+    },
+    {
+      "id": "mechanical-waves-271-period-kolebaniy-pruzhinnogo-mayatnika",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Период колебаний пружинного маятника",
+      "latex": "T=2\\pi \\sqrt{\\frac{m}{k}}",
+      "symbols": [
+        {
+          "symbol": "k",
+          "meaning": "жесткость пружины",
+          "unit": "Н/м",
+          "sourceParagraph": 245
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса груза на пружине",
+          "unit": "кг",
+          "sourceParagraph": 244
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        271,
+        272
+      ]
+    },
+    {
+      "id": "mechanical-waves-274-tsiklicheskaya-chastota-kolebaniy",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves",
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Циклическая частота колебаний",
+      "latex": "\\omega =\\frac{2\\pi }{T}",
+      "symbols": [
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 246
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        274,
+        275,
+        624,
+        625
+      ]
+    },
+    {
+      "id": "mechanical-waves-277-dlina-volny",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Длина волны",
+      "latex": "\\lambda =vT",
+      "symbols": [
+        {
+          "symbol": "\\lambda",
+          "meaning": "длина волны",
+          "unit": "м",
+          "sourceParagraph": 247
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость волы",
+          "unit": "м/с",
+          "sourceParagraph": 248
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 241
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        277,
+        278
+      ]
+    },
+    {
+      "id": "mechanical-waves-280-svyaz-mezhdu-kinematicheskimi-velichinami-cherez-proizvodnye",
+      "sectionId": "mechanics",
+      "topicIds": [
+        "mechanical-waves"
+      ],
+      "subtopic": "Механические колебания и волны",
+      "title": "Связь между кинематическими величинами через производные",
+      "latex": "\\begin{gathered}{a}_{x}\\left( t \\right)={v}_{x}^{'}\\left( t \\right)={x}^{''}(t)\\\\{v}_{x}\\left( t \\right)={x}^{'}\\left( t \\right)\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{a}_{x}",
+          "meaning": "проекция ускорения",
+          "sourceParagraph": 240
+        },
+        {
+          "symbol": "{v}_{x}",
+          "meaning": "проекция скорости",
+          "unit": "м/с",
+          "sourceParagraph": 239
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 237
+        },
+        {
+          "symbol": "x",
+          "meaning": "координата тела (смещение)",
+          "unit": "м",
+          "sourceParagraph": 235
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        280,
+        281,
+        282
+      ]
+    },
+    {
+      "id": "molecular-288-kolichestvo-veschestva",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Количество вещества",
+      "latex": "\\begin{gathered}\\nu =\\frac{N}{{N}_{A}}\\\\\\nu =\\frac{m}{M}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{N}_{A}",
+          "meaning": "число Авогадро (есть в справочных данных)",
+          "unit": "-",
+          "sourceParagraph": 292
+        },
+        {
+          "symbol": "\\nu",
+          "meaning": "количество вещества",
+          "unit": "моль",
+          "sourceParagraph": 290
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса всего тела",
+          "unit": "кг",
+          "sourceParagraph": 293
+        },
+        {
+          "symbol": "M",
+          "meaning": "молярная масса вещества (кг/моль)",
+          "unit": "кг/моль",
+          "sourceParagraph": 294
+        },
+        {
+          "symbol": "N",
+          "meaning": "общее число молекул",
+          "unit": "-",
+          "sourceParagraph": 291
+        },
+        {
+          "symbol": "n",
+          "meaning": "концентрация молекул",
+          "unit": "м^-3",
+          "sourceParagraph": 297
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        288,
+        289
+      ]
+    },
+    {
+      "id": "molecular-310-osnovnoe-uravnenie-mkt",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Основное уравнение МКТ",
+      "latex": "\\begin{gathered}p=\\frac{1}{3}{m}_{0}n\\bar{{v}^{2}}\\\\p=nkT\\\\n=\\frac{N}{V}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{m}_{0}",
+          "meaning": "масса молекулы",
+          "unit": "кг",
+          "sourceParagraph": 296
+        },
+        {
+          "symbol": "\\bar{v}",
+          "meaning": "средняя квадратичная скорость молекул",
+          "unit": "м/с",
+          "sourceParagraph": 298
+        },
+        {
+          "symbol": "k",
+          "meaning": "постоянная Больцмана (Дж/К)",
+          "unit": "Дж/К",
+          "sourceParagraph": 300
+        },
+        {
+          "symbol": "V",
+          "meaning": "объем газа",
+          "unit": "м³",
+          "sourceParagraph": 303
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление газа",
+          "unit": "Па",
+          "sourceParagraph": 295
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        },
+        {
+          "symbol": "N",
+          "meaning": "общее число молекул",
+          "unit": "-",
+          "sourceParagraph": 291
+        },
+        {
+          "symbol": "n",
+          "meaning": "концентрация молекул",
+          "unit": "м^-3",
+          "sourceParagraph": 297
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        310,
+        311,
+        312,
+        313
+      ]
+    },
+    {
+      "id": "molecular-316-srednyaya-energiya-teplovogo-dvizheniya-molekul",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Средняя энергия теплового движения молекул",
+      "latex": "\\bar{E}= \\frac{3}{2}kT",
+      "symbols": [
+        {
+          "symbol": "\\bar{E}",
+          "meaning": "средняя кинетическая энергия молекул",
+          "unit": "Дж",
+          "sourceParagraph": 299
+        },
+        {
+          "symbol": "k",
+          "meaning": "постоянная Больцмана (Дж/К)",
+          "unit": "Дж/К",
+          "sourceParagraph": 300
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        316,
+        317
+      ]
+    },
+    {
+      "id": "molecular-319-absolyutnaya-temperatura",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Абсолютная температура",
+      "latex": "T=t+273",
+      "symbols": [
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        },
+        {
+          "symbol": "t",
+          "meaning": "температура",
+          "unit": "°C",
+          "sourceParagraph": 302
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        319,
+        320
+      ]
+    },
+    {
+      "id": "molecular-322-uravnenie-sostoyaniya-idealnogo-gaza",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Уравнение состояния идеального газа",
+      "latex": "pV=\\nu RT",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "количество вещества",
+          "unit": "моль",
+          "sourceParagraph": 290
+        },
+        {
+          "symbol": "R",
+          "meaning": "универсальная газовая постоянная ([\\frac{Дж}{моль\\cdot К}])",
+          "unit": "Дж/(моль·К)",
+          "sourceParagraph": 304
+        },
+        {
+          "symbol": "V",
+          "meaning": "объем газа",
+          "unit": "м³",
+          "sourceParagraph": 303
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление газа",
+          "unit": "Па",
+          "sourceParagraph": 295
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        322,
+        323
+      ]
+    },
+    {
+      "id": "molecular-325-universalnyy-gazovyy-zakon",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Универсальный газовый закон",
+      "latex": "\\frac{{p}_{1}\\cdot {V}_{1}}{{T}_{1}}=\\frac{{p}_{2}\\cdot {V}_{2}}{{T}_{2}}",
+      "symbols": [
+        {
+          "symbol": "V",
+          "meaning": "объем газа",
+          "unit": "м³",
+          "sourceParagraph": 303
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление газа",
+          "unit": "Па",
+          "sourceParagraph": 295
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        }
+      ],
+      "conditions": "если [m=const]",
+      "explanation": "если [m=const]",
+      "source": "verified",
+      "sourceParagraphs": [
+        325,
+        326
+      ]
+    },
+    {
+      "id": "molecular-329-zakon-boylya-mariotta-dlya-izotermicheskogo-protsessa",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Закон Бойля-Мариотта (для изотермического процесса)",
+      "latex": "{p}_{1}\\cdot {V}_{1}={p}_{2}\\cdot {V}_{2}",
+      "symbols": [
+        {
+          "symbol": "V",
+          "meaning": "объем воздуха",
+          "unit": "м³",
+          "sourceParagraph": 353
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление пара",
+          "unit": "Па",
+          "sourceParagraph": 356
+        }
+      ],
+      "conditions": "если; [m=const]; [T=const]",
+      "explanation": "если [m=const] [T=const]",
+      "source": "verified",
+      "sourceParagraphs": [
+        329,
+        330
+      ]
+    },
+    {
+      "id": "molecular-335-zakon-gey-lyussaka-dlya-izobarnogo-protsessa",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Закон Гей-Люссака (для изобарного процесса)",
+      "latex": "\\frac{{V}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}",
+      "symbols": [
+        {
+          "symbol": "V",
+          "meaning": "объем воздуха",
+          "unit": "м³",
+          "sourceParagraph": 353
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        }
+      ],
+      "conditions": "если; [m=const]; [p=const]",
+      "explanation": "если [m=const] [p=const]",
+      "source": "verified",
+      "sourceParagraphs": [
+        335,
+        336
+      ]
+    },
+    {
+      "id": "molecular-341-zakon-sharlya-dlya-izohornogo-protsessa",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Закон Шарля (для изохорного процесса)",
+      "latex": "\\frac{{p}_{1}}{{T}_{1}}=\\frac{{p}_{2}}{{T}_{2}}",
+      "symbols": [
+        {
+          "symbol": "p",
+          "meaning": "давление пара",
+          "unit": "Па",
+          "sourceParagraph": 356
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        }
+      ],
+      "conditions": "если; [m=const]; [V=const]",
+      "explanation": "если [m=const] [V=const]",
+      "source": "verified",
+      "sourceParagraphs": [
+        341,
+        342
+      ]
+    },
+    {
+      "id": "molecular-347-vnutrennyaya-energiya-idealnogo-gaza",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Внутренняя энергия идеального газа",
+      "latex": "U=\\frac{i}{2}\\nu RT",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "количество вещества",
+          "unit": "моль",
+          "sourceParagraph": 290
+        },
+        {
+          "symbol": "R",
+          "meaning": "универсальная газовая постоянная ([\\frac{Дж}{моль\\cdot К}])",
+          "unit": "Дж/(моль·К)",
+          "sourceParagraph": 304
+        },
+        {
+          "symbol": "T",
+          "meaning": "абсолютная температура",
+          "unit": "К",
+          "sourceParagraph": 301
+        },
+        {
+          "symbol": "i",
+          "meaning": "число степеней свободы молекул газа",
+          "unit": "-",
+          "sourceParagraph": 305
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        347,
+        348
+      ]
+    },
+    {
+      "id": "molecular-350-absolyutnaya-vlazhnost-vozduha-plotnost-vodyanogo-para",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Абсолютная влажность воздуха (плотность водяного пара)",
+      "latex": "{\\rho }_{\\text{абс}}=\\frac{m}{V}",
+      "symbols": [
+        {
+          "symbol": "{\\rho }_{\\text{абс}}",
+          "meaning": "абсолютная влажность воздуха (плотность пара)",
+          "sourceParagraph": 352
+        },
+        {
+          "symbol": "V",
+          "meaning": "объем воздуха",
+          "unit": "м³",
+          "sourceParagraph": 353
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса водяного пара",
+          "sourceParagraph": 358
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        350,
+        351
+      ]
+    },
+    {
+      "id": "molecular-359-otnositelnaya-vlazhnost-vozduha",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "molecular"
+      ],
+      "subtopic": "Молекулярная физика",
+      "title": "Относительная влажность воздуха",
+      "latex": "\\begin{gathered}\\varphi =\\frac{{\\rho }_{\\text{абс}}}{{\\rho }_{\\text{н}}}\\\\\\varphi =\\frac{p}{{p}_{\\text{н}}}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\rho }_{\\text{абс}}",
+          "meaning": "абсолютная влажность воздуха (плотность пара)",
+          "sourceParagraph": 352
+        },
+        {
+          "symbol": "{\\rho }_{\\text{н}}",
+          "meaning": "плотность насыщенного пара при данной температуре",
+          "sourceParagraph": 355
+        },
+        {
+          "symbol": "\\varphi",
+          "meaning": "относительная влажность воздуха",
+          "unit": "-",
+          "sourceParagraph": 354
+        },
+        {
+          "symbol": "{p}_{\\text{н}}",
+          "meaning": "давление насыщенного пара при данной температуре",
+          "unit": "Па",
+          "sourceParagraph": 357
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление пара",
+          "unit": "Па",
+          "sourceParagraph": 356
+        },
+        {
+          "symbol": "i",
+          "meaning": "число степеней свободы молекул газа",
+          "unit": "-",
+          "sourceParagraph": 305
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        359,
+        360
+      ]
+    },
+    {
+      "id": "thermo-366-kolichestvo-teploty-nagrevanie-i-ohlazhdenie",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Количество теплоты (нагревание и охлаждение)",
+      "latex": "Q=cm\\Delta t",
+      "symbols": [
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты",
+          "unit": "Дж",
+          "sourceParagraph": 368
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса всего тела",
+          "unit": "кг",
+          "sourceParagraph": 293
+        },
+        {
+          "symbol": "c",
+          "meaning": "удельная теплоемкость",
+          "unit": "Дж/(кг·°C)",
+          "sourceParagraph": 369
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        366,
+        367
+      ]
+    },
+    {
+      "id": "thermo-375-kolichestvo-teploty-sgoranie-topliva",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Количество теплоты (сгорание топлива)",
+      "latex": "Q=qm",
+      "symbols": [
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты",
+          "unit": "Дж",
+          "sourceParagraph": 368
+        },
+        {
+          "symbol": "q",
+          "meaning": "удельная теплота сгорания",
+          "unit": "Дж/кг",
+          "sourceParagraph": 370
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса всего тела",
+          "unit": "кг",
+          "sourceParagraph": 293
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        375,
+        376
+      ]
+    },
+    {
+      "id": "thermo-378-kolichestvo-teploty-plavlenie-i-otverdevanie",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Количество теплоты (плавление и отвердевание)",
+      "latex": "Q=\\lambda m",
+      "symbols": [
+        {
+          "symbol": "\\lambda",
+          "meaning": "удельная теплота плавления и отвердевания",
+          "unit": "Дж/кг",
+          "sourceParagraph": 371
+        },
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты",
+          "unit": "Дж",
+          "sourceParagraph": 368
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса всего тела",
+          "unit": "кг",
+          "sourceParagraph": 293
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        378,
+        379
+      ]
+    },
+    {
+      "id": "thermo-381-kolichestvo-teploty-paroobrazovanie-i-kondensatsiya",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Количество теплоты (парообразование и конденсация)",
+      "latex": "\\begin{gathered}Q=rm\\\\Q=Lm\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты",
+          "unit": "Дж",
+          "sourceParagraph": 368
+        },
+        {
+          "symbol": "m",
+          "meaning": "масса всего тела",
+          "unit": "кг",
+          "sourceParagraph": 293
+        },
+        {
+          "symbol": "r",
+          "meaning": "удельная теплота парообразования и конденсации",
+          "unit": "Дж/кг",
+          "sourceParagraph": 372
+        }
+      ],
+      "conditions": "[Q=rm] [Q=Lm]    (L и r – одно и то же)",
+      "explanation": "[Q=rm] [Q=Lm]    (L и r – одно и то же)",
+      "source": "verified",
+      "sourceParagraphs": [
+        381,
+        382
+      ]
+    },
+    {
+      "id": "thermo-384-uravnenie-teplovogo-balansa",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Уравнение теплового баланса",
+      "latex": "{Q}_{1}+{Q}_{2}+{Q}_{3}+\\ldots =0",
+      "symbols": [
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты, переданное газу",
+          "unit": "Дж",
+          "sourceParagraph": 394
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        384,
+        385
+      ]
+    },
+    {
+      "id": "thermo-387-pervyy-zakon-termodinamiki",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "Первый закон термодинамики",
+      "latex": "\\begin{gathered}\\Delta U=Q+A\\\\Q=\\Delta U+{A}^{'}\\\\A=-{A}^{'}\\\\{A}^{'}=\\bar{p}\\cdot \\Delta V\\\\{A}^{'}=p\\cdot \\Delta V\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\Delta U",
+          "meaning": "изменение внутренней энергии газа",
+          "unit": "Дж",
+          "sourceParagraph": 393
+        },
+        {
+          "symbol": "{A}^{'}",
+          "meaning": "работа, совершаемая самим газом",
+          "unit": "Дж",
+          "sourceParagraph": 396
+        },
+        {
+          "symbol": "\\bar{p}",
+          "meaning": "среднее давление газа",
+          "unit": "Па",
+          "sourceParagraph": 397
+        },
+        {
+          "symbol": "A",
+          "meaning": "работа внешних сил над газом",
+          "unit": "Дж",
+          "sourceParagraph": 395
+        },
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты, переданное газу",
+          "unit": "Дж",
+          "sourceParagraph": 394
+        },
+        {
+          "symbol": "V",
+          "meaning": "объем газа",
+          "unit": "м³",
+          "sourceParagraph": 303
+        },
+        {
+          "symbol": "p",
+          "meaning": "давление газа",
+          "unit": "Па",
+          "sourceParagraph": 295
+        }
+      ],
+      "conditions": "[{A}^{'}=\\bar{p}\\cdot \\Delta V] (не входит в кодификатор); [{A}^{'}=p\\cdot \\Delta V] (для изобарного процесса)",
+      "explanation": "[{A}^{'}=\\bar{p}\\cdot \\Delta V] (не входит в кодификатор) [{A}^{'}=p\\cdot \\Delta V] (для изобарного процесса)",
+      "source": "verified",
+      "sourceParagraphs": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392
+      ]
+    },
+    {
+      "id": "thermo-403-kpd-teplovyh-mashin",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "КПД тепловых машин",
+      "latex": "\\eta =\\frac{{Q}_{\\text{наг}}-{Q}_{\\text{хол}}}{{Q}_{\\text{наг}}}",
+      "symbols": [
+        {
+          "symbol": "{Q}_{\\text{хол}}",
+          "meaning": "количество теплоты, отданное холодильнику за цикл",
+          "unit": "Дж",
+          "sourceParagraph": 400
+        },
+        {
+          "symbol": "{Q}_{\\text{наг}}",
+          "meaning": "количество теплоты, полученное от нагревателя за цикл",
+          "unit": "Дж",
+          "sourceParagraph": 399
+        },
+        {
+          "symbol": "\\eta",
+          "meaning": "КПД",
+          "unit": "-",
+          "sourceParagraph": 398
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        403,
+        404
+      ]
+    },
+    {
+      "id": "thermo-406-kpd-idealnoy-teplovoy-mashiny-tsikl-karno",
+      "sectionId": "thermodynamics",
+      "topicIds": [
+        "thermo"
+      ],
+      "subtopic": "Термодинамика",
+      "title": "КПД идеальной тепловой машины (цикл Карно)",
+      "latex": "\\eta =\\frac{{T}_{\\text{наг}}-{T}_{\\text{хол}}}{{T}_{\\text{наг}}}",
+      "symbols": [
+        {
+          "symbol": "{T}_{\\text{наг}}",
+          "meaning": "температура нагревателя",
+          "unit": "К",
+          "sourceParagraph": 401
+        },
+        {
+          "symbol": "{T}_{\\text{хол}}",
+          "meaning": "температура холодильника",
+          "unit": "К",
+          "sourceParagraph": 402
+        },
+        {
+          "symbol": "\\eta",
+          "meaning": "КПД",
+          "unit": "-",
+          "sourceParagraph": 398
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        406,
+        407
+      ]
+    },
+    {
+      "id": "electrostatics-415-zakon-sohraneniya-zaryada",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Закон сохранения заряда",
+      "latex": "{q}_{1}+{q}_{2}+\\ldots ={{q}^{'}}_{1}+{{q}^{'}}_{2}+\\ldots",
+      "symbols": [
+        {
+          "symbol": "{{q}^{'}}_{1}",
+          "meaning": "заряды тел после взаимодействия",
+          "sourceParagraph": 418
+        },
+        {
+          "symbol": "{q}_{1}",
+          "meaning": "заряды тел до взаимодействия",
+          "sourceParagraph": 417
+        },
+        {
+          "symbol": "q",
+          "meaning": "электрический заряд (создающий поле)",
+          "unit": "Кл",
+          "sourceParagraph": 426
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        415,
+        416
+      ]
+    },
+    {
+      "id": "electrostatics-419-zakon-kulona",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Закон кулона",
+      "latex": "\\begin{gathered}F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{{r}^{2}}\\\\F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{\\varepsilon {r}^{2}}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\varepsilon",
+          "meaning": "диэлектрическая проницаемость вещества вокруг зарядов (по умолчанию = 1)",
+          "unit": "-",
+          "sourceParagraph": 425
+        },
+        {
+          "symbol": "k",
+          "meaning": "коэффициент пропорциональности",
+          "unit": "Н·м²/Кл²",
+          "sourceParagraph": 423
+        },
+        {
+          "symbol": "q",
+          "meaning": "электрический заряд (создающий поле)",
+          "unit": "Кл",
+          "sourceParagraph": 426
+        },
+        {
+          "symbol": "F",
+          "meaning": "сила Кулона",
+          "unit": "Н",
+          "sourceParagraph": 422
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние между точечными телами или их центрами (для шаров)",
+          "unit": "м",
+          "sourceParagraph": 428
+        },
+        {
+          "symbol": "{q}_{1}",
+          "meaning": "заряды тел",
+          "sourceParagraph": 417
+        },
+        {
+          "symbol": "{q}_{2}",
+          "meaning": "заряды тел",
+          "sourceParagraph": 417
+        }
+      ],
+      "conditions": "[F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{{r}^{2}}] (в вакууме); [F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{\\varepsilon {r}^{2}}] (в диэлектрике)",
+      "explanation": "[F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{{r}^{2}}] (в вакууме) [F=\\frac{k\\left| \\left. {q}_{1} \\right| \\right.\\left| \\left. {q}_{2} \\right| \\right.}{\\varepsilon {r}^{2}}] (в диэлектрике)",
+      "source": "verified",
+      "sourceParagraphs": [
+        419,
+        420,
+        421
+      ]
+    },
+    {
+      "id": "electrostatics-430-sila-lorentsa-elektricheskaya",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Сила Лоренца (электрическая)",
+      "latex": "{F}_{\\text{л}}=E{q}_{\\text{пр}}",
+      "symbols": [
+        {
+          "symbol": "{q}_{\\text{пр}}",
+          "meaning": "пробный электрический заряд (помещенный в поле)",
+          "unit": "Кл",
+          "sourceParagraph": 427
+        },
+        {
+          "symbol": "F",
+          "meaning": "сила Кулона",
+          "unit": "Н",
+          "sourceParagraph": 422
+        },
+        {
+          "symbol": "E",
+          "meaning": "напряженность поля",
+          "sourceParagraph": 429
+        },
+        {
+          "symbol": "{F}_{\\text{л}}",
+          "meaning": "сила Лоренца (электрическая)",
+          "sourceParagraph": 430
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        430,
+        431
+      ]
+    },
+    {
+      "id": "electrostatics-433-napryazhennost-polya-tochechnogo-zaryada",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Напряжённость поля точечного заряда",
+      "latex": "E=\\frac{k\\left| q \\right|}{{r}^{2}}",
+      "symbols": [
+        {
+          "symbol": "k",
+          "meaning": "коэффициент пропорциональности",
+          "unit": "Н·м²/Кл²",
+          "sourceParagraph": 423
+        },
+        {
+          "symbol": "q",
+          "meaning": "электрический заряд (создающий поле)",
+          "unit": "Кл",
+          "sourceParagraph": 426
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние между точечными телами или их центрами (для шаров)",
+          "unit": "м",
+          "sourceParagraph": 428
+        },
+        {
+          "symbol": "E",
+          "meaning": "напряженность поля",
+          "sourceParagraph": 429
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        433,
+        435
+      ]
+    },
+    {
+      "id": "electrostatics-437-potentsial-polya-tochechnogo-zaryada",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Потенциал поля точечного заряда",
+      "latex": "\\varphi =\\frac{kq}{r}",
+      "symbols": [
+        {
+          "symbol": "\\varphi",
+          "meaning": "потенциал поля",
+          "unit": "В",
+          "sourceParagraph": 439
+        },
+        {
+          "symbol": "k",
+          "meaning": "коэффициент пропорциональности",
+          "unit": "Н·м²/Кл²",
+          "sourceParagraph": 423
+        },
+        {
+          "symbol": "q",
+          "meaning": "величина заряда",
+          "unit": "Кл",
+          "sourceParagraph": 441
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние от заряда до точки, в которой определяется потенциал",
+          "unit": "м",
+          "sourceParagraph": 440
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        437,
+        438
+      ]
+    },
+    {
+      "id": "electrostatics-442-potentsial-polya-zaryazhennoy-sfery",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Потенциал поля заряженной сферы",
+      "latex": "\\begin{gathered}{\\varphi }_{\\text{вн}}=\\frac{kq}{ R}\\\\{\\varphi }_{\\text{нар}}=\\frac{kq}{r}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{\\text{нар}}",
+          "meaning": "потенциал снаружи сферы",
+          "unit": "В",
+          "sourceParagraph": 448
+        },
+        {
+          "symbol": "{\\varphi }_{\\text{вн}}",
+          "meaning": "потенциал внутри сферы",
+          "unit": "В",
+          "sourceParagraph": 446
+        },
+        {
+          "symbol": "R",
+          "meaning": "радиус сферы",
+          "unit": "м",
+          "sourceParagraph": 447
+        },
+        {
+          "symbol": "k",
+          "meaning": "коэффициент пропорциональности",
+          "unit": "Н·м²/Кл²",
+          "sourceParagraph": 423
+        },
+        {
+          "symbol": "q",
+          "meaning": "заряд сферы",
+          "unit": "Кл",
+          "sourceParagraph": 450
+        },
+        {
+          "symbol": "r",
+          "meaning": "расстояние от точки определения потенциала до центра сферы",
+          "unit": "м",
+          "sourceParagraph": 449
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        442,
+        443,
+        445
+      ]
+    },
+    {
+      "id": "electrostatics-451-raznost-potentsialov",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Разность потенциалов",
+      "latex": "\\begin{gathered}\\Delta \\varphi ={\\varphi }_{2}-{\\varphi }_{1}=U\\\\\\Delta \\varphi =Ed\\\\U=Ed\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\Delta \\varphi",
+          "meaning": "разность потенциалов",
+          "unit": "В",
+          "sourceParagraph": 456
+        },
+        {
+          "symbol": "\\varphi",
+          "meaning": "потенциал поля",
+          "unit": "В",
+          "sourceParagraph": 439
+        },
+        {
+          "symbol": "U",
+          "meaning": "электрическое напряжение",
+          "unit": "В",
+          "sourceParagraph": 455
+        },
+        {
+          "symbol": "d",
+          "meaning": "расстояние между точками определения потенциала",
+          "unit": "м",
+          "sourceParagraph": 457
+        },
+        {
+          "symbol": "E",
+          "meaning": "напряженность поля",
+          "sourceParagraph": 429
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        451,
+        452,
+        453,
+        454
+      ]
+    },
+    {
+      "id": "electrostatics-458-potentsialnaya-energiya-zaryada-v-odnorodnom-pole",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Потенциальная энергия заряда в однородном поле",
+      "latex": "W=q\\varphi",
+      "symbols": [
+        {
+          "symbol": "\\varphi",
+          "meaning": "потенциал поля",
+          "unit": "В",
+          "sourceParagraph": 439
+        },
+        {
+          "symbol": "W",
+          "meaning": "потенциальная энергия заряда",
+          "unit": "Дж",
+          "sourceParagraph": 460
+        },
+        {
+          "symbol": "q",
+          "meaning": "величина помещенного в поле заряда",
+          "unit": "Кл",
+          "sourceParagraph": 461
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        458,
+        459
+      ]
+    },
+    {
+      "id": "electrostatics-462-rabota-elektrostaticheskogo-polya",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Работа электростатического поля",
+      "latex": "\\begin{gathered}A=-\\Delta \\varphi q\\\\A=-\\Delta W\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\Delta \\varphi",
+          "meaning": "разность потенциалов",
+          "unit": "В",
+          "sourceParagraph": 456
+        },
+        {
+          "symbol": "\\varphi",
+          "meaning": "потенциал поля",
+          "unit": "В",
+          "sourceParagraph": 439
+        },
+        {
+          "symbol": "W",
+          "meaning": "потенциальная энергия заряда",
+          "unit": "Дж",
+          "sourceParagraph": 460
+        },
+        {
+          "symbol": "A",
+          "meaning": "работа поля",
+          "unit": "Дж",
+          "sourceParagraph": 465
+        },
+        {
+          "symbol": "q",
+          "meaning": "заряд, перемещаемый в поле",
+          "unit": "Кл",
+          "sourceParagraph": 466
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        462,
+        463,
+        464
+      ]
+    },
+    {
+      "id": "electrostatics-467-elektroemkost-kondensatora",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Электроемкость конденсатора",
+      "latex": "\\begin{gathered}C=\\frac{q}{U}\\\\C=\\frac{\\varepsilon \\cdot {\\varepsilon }_{0}\\cdot S}{d}\\\\{\\varepsilon }_{0}=\\frac{1}{4\\pi k}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varepsilon }_{0}",
+          "meaning": "электрическая постоянная",
+          "sourceParagraph": 475
+        },
+        {
+          "symbol": "\\varepsilon",
+          "meaning": "диэлектрическая проницаемость вещества между пластинами",
+          "unit": "-",
+          "sourceParagraph": 474
+        },
+        {
+          "symbol": "k",
+          "meaning": "коэффициент из закона Кулона",
+          "sourceParagraph": 476
+        },
+        {
+          "symbol": "q",
+          "meaning": "заряд пластин конденсатора",
+          "unit": "Кл",
+          "sourceParagraph": 472
+        },
+        {
+          "symbol": "S",
+          "meaning": "площадь пластины конденсатора",
+          "unit": "м²",
+          "sourceParagraph": 477
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение между пластинами конденсатора",
+          "sourceParagraph": 473
+        },
+        {
+          "symbol": "d",
+          "meaning": "расстояние между пластинами",
+          "unit": "м",
+          "sourceParagraph": 478
+        },
+        {
+          "symbol": "C",
+          "meaning": "электрическая емкость",
+          "unit": "Ф",
+          "sourceParagraph": 471
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        467,
+        468,
+        469,
+        470
+      ]
+    },
+    {
+      "id": "electrostatics-480-potentsialnaya-energiya-zaryazhennogo-kondensatora",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Потенциальная энергия заряженного конденсатора",
+      "latex": "{W}_{c}=\\frac{C{U}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "{W}_{c}",
+          "meaning": "потенциальная энергия конденсатора",
+          "unit": "Дж",
+          "sourceParagraph": 479
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение между пластинами конденсатора",
+          "sourceParagraph": 473
+        },
+        {
+          "symbol": "C",
+          "meaning": "электрическая емкость",
+          "unit": "Ф",
+          "sourceParagraph": 471
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        480,
+        481
+      ]
+    },
+    {
+      "id": "electrostatics-483-obschaya-emkost-batarei-kondensatorov-parallelnoe-soedinenie",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Общая емкость батареи конденсаторов (параллельное соединение)",
+      "latex": "{C}_{\\text{об}}={C}_{1}+{C}_{2}+\\ldots",
+      "symbols": [
+        {
+          "symbol": "C",
+          "meaning": "электрическая емкость",
+          "unit": "Ф",
+          "sourceParagraph": 471
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        483,
+        484
+      ]
+    },
+    {
+      "id": "electrostatics-486-obschaya-emkost-batarei-kondensatorov-posledovatelnoe-soedin",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electrostatics"
+      ],
+      "subtopic": "Электростатика",
+      "title": "Общая емкость батареи конденсаторов (последовательное соединение)",
+      "latex": "\\frac{1}{{C}_{\\text{об}}}=\\frac{1}{{C}_{1}}+\\frac{1}{{C}_{2}}+\\ldots",
+      "symbols": [
+        {
+          "symbol": "C",
+          "meaning": "электрическая емкость",
+          "unit": "Ф",
+          "sourceParagraph": 471
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        486,
+        487
+      ]
+    },
+    {
+      "id": "current-493-sila-toka",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Сила тока",
+      "latex": "I=\\frac{q}{t}",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "q",
+          "meaning": "величина заряда, прошедшего по проводнику",
+          "unit": "Кл",
+          "sourceParagraph": 499
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        493,
+        494
+      ]
+    },
+    {
+      "id": "current-509-elektricheskoe-napryazhenie",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Электрическое напряжение",
+      "latex": "U=\\frac{A}{q }",
+      "symbols": [
+        {
+          "symbol": "A",
+          "meaning": "работа тока",
+          "unit": "Дж",
+          "sourceParagraph": 498
+        },
+        {
+          "symbol": "q",
+          "meaning": "величина заряда, прошедшего по проводнику",
+          "unit": "Кл",
+          "sourceParagraph": 499
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        509,
+        510
+      ]
+    },
+    {
+      "id": "current-512-elektricheskoe-soprotivlenie",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Электрическое сопротивление",
+      "latex": "R=\\frac{\\rho l}{S}",
+      "symbols": [
+        {
+          "symbol": "\\rho",
+          "meaning": "удельное электрическое сопротивление",
+          "unit": "Ом· м",
+          "sourceParagraph": 500
+        },
+        {
+          "symbol": "R",
+          "meaning": "сопротивление",
+          "unit": "Ом",
+          "sourceParagraph": 497
+        },
+        {
+          "symbol": "S",
+          "meaning": "площадь поперечного сечения проводника (толщина)",
+          "unit": "мм²",
+          "sourceParagraph": 502
+        },
+        {
+          "symbol": "l",
+          "meaning": "длина проводника",
+          "unit": "м",
+          "sourceParagraph": 501
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        512,
+        513
+      ]
+    },
+    {
+      "id": "current-515-zakon-oma-dlya-uchastka-tsepi",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Закон Ома для участка цепи",
+      "latex": "I=\\frac{U}{R}",
+      "symbols": [
+        {
+          "symbol": "R",
+          "meaning": "сопротивление",
+          "unit": "Ом",
+          "sourceParagraph": 497
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        515,
+        516
+      ]
+    },
+    {
+      "id": "current-518-zakon-oma-dlya-polnoy-tsepi",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Закон Ома для полной цепи",
+      "latex": "I=\\varepsilon /({R}_{\\text{н}}+r)",
+      "symbols": [
+        {
+          "symbol": "\\varepsilon",
+          "meaning": "электродвижущая сила (ЭДС) источника",
+          "unit": "В",
+          "sourceParagraph": 503
+        },
+        {
+          "symbol": "{R}_{\\text{н}}",
+          "meaning": "сопротивление нагрузки (общее сопротивление внешней цепи)",
+          "unit": "Ом",
+          "sourceParagraph": 505
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "r",
+          "meaning": "внутреннее сопротивление источника",
+          "unit": "Ом",
+          "sourceParagraph": 504
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        518,
+        519
+      ]
+    },
+    {
+      "id": "current-521-svoystva-posledovatelnogo-soedineniya-provodnikov",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Свойства последовательного соединения проводников",
+      "latex": "\\begin{gathered}{I}_{\\text{об}}={I}_{1}={I}_{2}=\\ldots\\\\{U}_{\\text{об}}={U}_{1}+{U}_{2}+\\ldots\\\\{R}_{\\text{об}}={R}_{1}+{R}_{2}+\\ldots\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "R",
+          "meaning": "сопротивление",
+          "unit": "Ом",
+          "sourceParagraph": 497
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        521,
+        522,
+        523,
+        524
+      ]
+    },
+    {
+      "id": "current-526-svoystva-parallelnogo-soedineniya-provodnikov",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Свойства параллельного соединения проводников",
+      "latex": "\\begin{gathered}{I}_{\\text{об}}={I}_{1}+{I}_{2}+\\ldots\\\\{U}_{\\text{об}}={U}_{1}={U}_{2}=\\ldots\\\\\\frac{1}{{R}_{\\text{об}}}=\\frac{1}{{R}_{1}}+\\frac{1}{{R}_{2}}+\\ldots\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "R",
+          "meaning": "сопротивление",
+          "unit": "Ом",
+          "sourceParagraph": 497
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "r",
+          "meaning": "внутреннее сопротивление источника",
+          "unit": "Ом",
+          "sourceParagraph": 504
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        526,
+        527,
+        528,
+        529
+      ]
+    },
+    {
+      "id": "current-531-rabota-toka",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Работа тока",
+      "latex": "\\begin{gathered}A=UIt\\\\A=Pt\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "A",
+          "meaning": "работа тока",
+          "unit": "Дж",
+          "sourceParagraph": 498
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        },
+        {
+          "symbol": "P",
+          "meaning": "мощность тока",
+          "unit": "Вт",
+          "sourceParagraph": 507
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        531,
+        532
+      ]
+    },
+    {
+      "id": "current-534-moschnost-toka",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Мощность тока",
+      "latex": "P=UI",
+      "symbols": [
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "U",
+          "meaning": "напряжение",
+          "unit": "В",
+          "sourceParagraph": 496
+        },
+        {
+          "symbol": "P",
+          "meaning": "мощность тока",
+          "unit": "Вт",
+          "sourceParagraph": 507
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        534,
+        535
+      ]
+    },
+    {
+      "id": "current-537-moschnost-istochnika",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Мощность источника",
+      "latex": "{P}_{\\varepsilon }=\\varepsilon \\cdot I",
+      "symbols": [
+        {
+          "symbol": "\\varepsilon",
+          "meaning": "электродвижущая сила (ЭДС) источника",
+          "unit": "В",
+          "sourceParagraph": 503
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        },
+        {
+          "symbol": "P",
+          "meaning": "мощность тока",
+          "unit": "Вт",
+          "sourceParagraph": 507
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        537,
+        538
+      ]
+    },
+    {
+      "id": "current-540-zakon-dzhoulya-lentsa-teplota-vydelyaemaya-provodnikom",
+      "sectionId": "electricity",
+      "topicIds": [
+        "current"
+      ],
+      "subtopic": "Постоянный ток",
+      "title": "Закон Джоуля-Ленца (теплота, выделяемая проводником)",
+      "latex": "Q={I}^{2}Rt",
+      "symbols": [
+        {
+          "symbol": "R",
+          "meaning": "сопротивление",
+          "unit": "Ом",
+          "sourceParagraph": 497
+        },
+        {
+          "symbol": "Q",
+          "meaning": "количество теплоты, выделяемое проводником",
+          "unit": "Дж",
+          "sourceParagraph": 508
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 495
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        540,
+        541
+      ]
+    },
+    {
+      "id": "magnetism-546-sila-ampera",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "Сила Ампера",
+      "latex": "{F}_{A}=IBl\\sin \\alpha",
+      "symbols": [
+        {
+          "symbol": "{F}_{A}",
+          "meaning": "сила Ампера",
+          "unit": "Н",
+          "sourceParagraph": 550
+        },
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол между направлениями I и B",
+          "sourceParagraph": 554
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока в проводнике",
+          "unit": "А",
+          "sourceParagraph": 551
+        },
+        {
+          "symbol": "B",
+          "meaning": "магнитная индукция",
+          "unit": "Тл",
+          "sourceParagraph": 553
+        },
+        {
+          "symbol": "l",
+          "meaning": "длина проводника",
+          "unit": "м",
+          "sourceParagraph": 552
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        546,
+        547
+      ]
+    },
+    {
+      "id": "magnetism-556-sila-lorentsa",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "Сила Лоренца",
+      "latex": "{F}_{\\text{Л}}=qvB\\sin \\alpha",
+      "symbols": [
+        {
+          "symbol": "{F}_{\\text{Л}}",
+          "meaning": "сила Лоренца",
+          "unit": "Н",
+          "sourceParagraph": 560
+        },
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол между направлениями [v] и B",
+          "sourceParagraph": 562
+        },
+        {
+          "symbol": "q",
+          "meaning": "электрический заряд (создающий поле)",
+          "unit": "Кл",
+          "sourceParagraph": 426
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость частицы",
+          "unit": "м/с",
+          "sourceParagraph": 561
+        },
+        {
+          "symbol": "B",
+          "meaning": "магнитная индукция",
+          "unit": "Тл",
+          "sourceParagraph": 553
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        556,
+        557
+      ]
+    },
+    {
+      "id": "magnetism-564-magnitnyy-potok",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "Магнитный поток",
+      "latex": "\\Phi =BS\\cos \\alpha",
+      "symbols": [
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол между B и перпендикуляром к поверхности контура",
+          "sourceParagraph": 568
+        },
+        {
+          "symbol": "\\Phi",
+          "meaning": "магнитный поток, создаваемый катушкой",
+          "unit": "Вб",
+          "sourceParagraph": 586
+        },
+        {
+          "symbol": "S",
+          "meaning": "площадь контура",
+          "unit": "м²",
+          "sourceParagraph": 567
+        },
+        {
+          "symbol": "B",
+          "meaning": "магнитная индукция",
+          "unit": "Тл",
+          "sourceParagraph": 553
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        564,
+        565
+      ]
+    },
+    {
+      "id": "magnetism-570-eds-induktsii-v-konture-pri-ravnomernom-izmenenii-potoka",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "ЭДС индукции в контуре при равномерном изменении потока",
+      "latex": "{\\varepsilon }_{i}=-\\frac{\\Delta \\Phi }{\\Delta t}",
+      "symbols": [
+        {
+          "symbol": "\\Phi",
+          "meaning": "магнитный поток, создаваемый катушкой",
+          "unit": "Вб",
+          "sourceParagraph": 586
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "{\\varepsilon }_{i}",
+          "meaning": "ЭДС индукции в контуре при равномерном изменении потока",
+          "sourceParagraph": 570
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        570,
+        571
+      ]
+    },
+    {
+      "id": "magnetism-573-eds-induktsii-v-konture",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "ЭДС индукции в контуре",
+      "latex": "{\\varepsilon }_{i}=-\\Phi '(t)",
+      "symbols": [
+        {
+          "symbol": "\\Phi",
+          "meaning": "магнитный поток, создаваемый катушкой",
+          "unit": "Вб",
+          "sourceParagraph": 586
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 12
+        },
+        {
+          "symbol": "{\\varepsilon }_{i}",
+          "meaning": "ЭДС индукции в контуре",
+          "sourceParagraph": 573
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        573,
+        574
+      ]
+    },
+    {
+      "id": "magnetism-576-eds-induktsii-v-dvizhuschemsya-provodnike",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "ЭДС индукции в движущемся проводнике",
+      "latex": "{\\varepsilon }_{i}=Blv\\cdot \\sin \\beta \\cdot \\cos \\alpha",
+      "symbols": [
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол, между вектором [\\vec{B}] и нормалью к поверхности, в которой лежат вектора [\\vec{l}] и [\\vec{v}]",
+          "sourceParagraph": 580
+        },
+        {
+          "symbol": "\\beta",
+          "meaning": "угол между проводником и скоростью [\\vec{v}]",
+          "sourceParagraph": 579
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость частицы",
+          "unit": "м/с",
+          "sourceParagraph": 561
+        },
+        {
+          "symbol": "B",
+          "meaning": "магнитная индукция",
+          "unit": "Тл",
+          "sourceParagraph": 553
+        },
+        {
+          "symbol": "l",
+          "meaning": "длина проводника",
+          "unit": "м",
+          "sourceParagraph": 552
+        },
+        {
+          "symbol": "{\\varepsilon }_{i}",
+          "meaning": "ЭДС индукции в движущемся проводнике",
+          "sourceParagraph": 576
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        576,
+        577
+      ]
+    },
+    {
+      "id": "magnetism-582-induktivnost-katushki",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "Индуктивность катушки",
+      "latex": "L=\\frac{\\Phi }{I}",
+      "symbols": [
+        {
+          "symbol": "\\Phi",
+          "meaning": "магнитный поток, создаваемый катушкой",
+          "unit": "Вб",
+          "sourceParagraph": 586
+        },
+        {
+          "symbol": "L",
+          "meaning": "индуктивность",
+          "unit": "Гн",
+          "sourceParagraph": 584
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока в катушке",
+          "sourceParagraph": 585
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        582,
+        583
+      ]
+    },
+    {
+      "id": "magnetism-588-energiya-magnitnogo-polya-katushki",
+      "sectionId": "electricity",
+      "topicIds": [
+        "magnetism"
+      ],
+      "subtopic": "Магнитное поле",
+      "title": "Энергия магнитного поля катушки",
+      "latex": "{W}_{L}=\\frac{L{I}^{2}}{2}",
+      "symbols": [
+        {
+          "symbol": "{W}_{L}",
+          "meaning": "энергия катушки",
+          "unit": "Дж",
+          "sourceParagraph": 587
+        },
+        {
+          "symbol": "L",
+          "meaning": "индуктивность",
+          "unit": "Гн",
+          "sourceParagraph": 584
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока в катушке",
+          "sourceParagraph": 585
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        588,
+        589
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-594-uravnenie-zavisimosti-zaryada-ot-vremeni-v-kolebatelnom-kont",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Уравнение зависимости заряда от времени в колебательном контуре",
+      "latex": "\\begin{gathered}q={q}_{m}\\cdot  \\cos (\\omega t+{\\varphi }_{0})\\\\q={q}_{m}\\cdot  \\sin (\\omega t+{\\varphi }_{0})\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{0}",
+          "meaning": "начальная фаза",
+          "unit": "рад",
+          "sourceParagraph": 603
+        },
+        {
+          "symbol": "{q}_{m}",
+          "meaning": "амплитудное значение заряда",
+          "unit": "Кл",
+          "sourceParagraph": 601
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 609
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 602
+        },
+        {
+          "symbol": "q",
+          "meaning": "заряд конденсатора контура",
+          "unit": "Кл",
+          "sourceParagraph": 600
+        }
+      ],
+      "conditions": "Первое уравнение выбирается, если заряд конденсатора в начальный момент максимален,; второе уравнение - если минимален.",
+      "explanation": "Первое уравнение выбирается, если заряд конденсатора в начальный момент максимален, второе уравнение - если минимален.",
+      "source": "verified",
+      "sourceParagraphs": [
+        594,
+        595,
+        597
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-612-sila-toka-v-kolebatelnom-konture",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Сила тока в колебательном контуре",
+      "latex": "\\begin{gathered}I=-{q}_{m} \\omega \\cdot \\sin (\\omega t+{\\varphi }_{0})\\\\I={q}_{m} \\omega \\cdot \\cos (\\omega t+{\\varphi }_{0})\\\\{I}_{m}={q}_{m} \\omega\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\varphi }_{0}",
+          "meaning": "начальная фаза",
+          "unit": "рад",
+          "sourceParagraph": 603
+        },
+        {
+          "symbol": "{q}_{m}",
+          "meaning": "амплитудное значение заряда",
+          "unit": "Кл",
+          "sourceParagraph": 601
+        },
+        {
+          "symbol": "\\omega",
+          "meaning": "циклическая частота",
+          "sourceParagraph": 609
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 602
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 604
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        612,
+        613,
+        615,
+        616
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-618-period-kolebaniy",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Период колебаний",
+      "latex": "\\begin{gathered}T=\\frac{t}{n}\\\\T=\\frac{1}{\\nu }\\\\T=2\\pi \\sqrt{LC}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\nu",
+          "meaning": "частота колебаний",
+          "unit": "Гц",
+          "sourceParagraph": 608
+        },
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 602
+        },
+        {
+          "symbol": "C",
+          "meaning": "электрическая емкость",
+          "unit": "Ф",
+          "sourceParagraph": 607
+        },
+        {
+          "symbol": "L",
+          "meaning": "индуктивность",
+          "unit": "Гн",
+          "sourceParagraph": 606
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 605
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        618,
+        619
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-627-svyaz-mezhdu-velichinami-cherez-proizvodnye",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Связь между величинами через производные",
+      "latex": "I\\left( t \\right)={q}^{'}\\left( t \\right)",
+      "symbols": [
+        {
+          "symbol": "t",
+          "meaning": "время",
+          "unit": "с",
+          "sourceParagraph": 602
+        },
+        {
+          "symbol": "I",
+          "meaning": "сила тока",
+          "unit": "А",
+          "sourceParagraph": 604
+        },
+        {
+          "symbol": "q",
+          "meaning": "заряд конденсатора контура",
+          "unit": "Кл",
+          "sourceParagraph": 600
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        627,
+        628
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-630-zakon-sohraneniya-energii-dlya-kolebatelnogo-kontura",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Закон сохранения энергии для колебательного контура",
+      "latex": "{W}_{C1}+{W}_{L1}={W}_{C2}+{W}_{L2}",
+      "symbols": [
+        {
+          "symbol": "{W}_{L}",
+          "meaning": "энергия магнитного поля катушки",
+          "unit": "Дж",
+          "sourceParagraph": 611
+        },
+        {
+          "symbol": "{W}_{C}",
+          "meaning": "энергия электрического поля конденсатора",
+          "unit": "Дж",
+          "sourceParagraph": 610
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        630,
+        631
+      ]
+    },
+    {
+      "id": "electromagnetic-waves-633-dlina-volny",
+      "sectionId": "electricity",
+      "topicIds": [
+        "electromagnetic-waves"
+      ],
+      "subtopic": "Электромагнитные колебания и волны",
+      "title": "Длина волны",
+      "latex": "\\lambda =\\text{с}T",
+      "symbols": [
+        {
+          "symbol": "\\lambda",
+          "meaning": "длина волны",
+          "unit": "м",
+          "sourceParagraph": 635
+        },
+        {
+          "symbol": "\\text{с}",
+          "meaning": "скорость света в вакууме (м/с)",
+          "unit": "м/с",
+          "sourceParagraph": 636
+        },
+        {
+          "symbol": "T",
+          "meaning": "период колебаний",
+          "unit": "с",
+          "sourceParagraph": 605
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        633,
+        634
+      ]
+    },
+    {
+      "id": "geometric-optics-639-absolyutnyy-pokazatel-prelomleniya",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Абсолютный показатель преломления",
+      "latex": "n=\\frac{c}{v}",
+      "symbols": [
+        {
+          "symbol": "c",
+          "meaning": "скорость света в вакууме (м/с)",
+          "unit": "м/с",
+          "sourceParagraph": 642
+        },
+        {
+          "symbol": "v",
+          "meaning": "скорость света в данной среде",
+          "unit": "м/с",
+          "sourceParagraph": 643
+        },
+        {
+          "symbol": "n",
+          "meaning": "показатель преломления",
+          "sourceParagraph": 641
+        }
+      ],
+      "conditions": "[\\gamma ] – угол преломления (во второй среде) (в случае полного внутреннего отражения[ \\gamma =90^\\circ])",
+      "explanation": "[\\gamma ] – угол преломления (во второй среде) (в случае полного внутреннего отражения[ \\gamma =90^\\circ])",
+      "source": "verified",
+      "sourceParagraphs": [
+        639,
+        640
+      ]
+    },
+    {
+      "id": "geometric-optics-647-otnositelnyy-pokazatel-prelomleniya-vtoroy-sredy-po-otnoshen",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Относительный показатель преломления второй среды по отношению к первой",
+      "latex": "{n}_{21}=\\frac{{n}_{2}}{{n}_{1}}",
+      "symbols": [
+        {
+          "symbol": "n",
+          "meaning": "показатель преломления",
+          "sourceParagraph": 641
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        647,
+        648
+      ]
+    },
+    {
+      "id": "geometric-optics-650-zakon-prelomleniya-sveta",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Закон преломления света",
+      "latex": "\\frac{\\sin \\alpha }{\\sin \\gamma }=\\frac{{n}_{2}}{{n}_{1}}",
+      "symbols": [
+        {
+          "symbol": "\\gamma",
+          "meaning": "угол преломления (во второй среде)",
+          "sourceParagraph": 645
+        },
+        {
+          "symbol": "\\alpha",
+          "meaning": "угол падения",
+          "sourceParagraph": 644
+        },
+        {
+          "symbol": "n",
+          "meaning": "показатель преломления",
+          "sourceParagraph": 641
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        650,
+        651
+      ]
+    },
+    {
+      "id": "geometric-optics-653-opticheskaya-sila-linzy",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Оптическая сила линзы",
+      "latex": "D=\\frac{1}{F}",
+      "symbols": [
+        {
+          "symbol": "D",
+          "meaning": "оптическая сила линзы",
+          "unit": "дптр",
+          "sourceParagraph": 655
+        },
+        {
+          "symbol": "F",
+          "meaning": "фокусное расстояние линзы (м)",
+          "unit": "м",
+          "sourceParagraph": 656
+        }
+      ],
+      "conditions": "F – фокусное расстояние линзы (м) (знак «-» если линза рассеивающая)",
+      "explanation": "F – фокусное расстояние линзы (м) (знак «-» если линза рассеивающая)",
+      "source": "verified",
+      "sourceParagraphs": [
+        653,
+        654
+      ]
+    },
+    {
+      "id": "geometric-optics-660-lineynoe-uvelichenie",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Линейное увеличение",
+      "latex": "\\begin{gathered}\\Gamma =\\frac{f}{d}\\\\\\Gamma =\\frac{h}{H}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "\\Gamma",
+          "meaning": "увеличение линзы",
+          "unit": "-",
+          "sourceParagraph": 657
+        },
+        {
+          "symbol": "f",
+          "meaning": "расстояние от линзы до изображения (м)",
+          "unit": "м",
+          "sourceParagraph": 658
+        },
+        {
+          "symbol": "d",
+          "meaning": "расстояние от линзы до источника света или предмета",
+          "unit": "м",
+          "sourceParagraph": 659
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        660,
+        661
+      ]
+    },
+    {
+      "id": "geometric-optics-663-formula-tonkoy-linzy",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Формула тонкой линзы",
+      "latex": "\\pm \\frac{1}{F}=\\frac{1}{d}\\pm \\frac{1}{f}",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "фокусное расстояние линзы (м)",
+          "unit": "м",
+          "sourceParagraph": 656
+        },
+        {
+          "symbol": "f",
+          "meaning": "расстояние от линзы до изображения (м)",
+          "unit": "м",
+          "sourceParagraph": 658
+        },
+        {
+          "symbol": "d",
+          "meaning": "расстояние от линзы до источника света или предмета",
+          "unit": "м",
+          "sourceParagraph": 659
+        }
+      ],
+      "conditions": "F – фокусное расстояние линзы (м) (знак «-» если линза рассеивающая); f – расстояние от линзы до изображения (м) (знак «-», если изображение мнимое)",
+      "explanation": "F – фокусное расстояние линзы (м) (знак «-» если линза рассеивающая) f – расстояние от линзы до изображения (м) (знак «-», если изображение мнимое)",
+      "source": "verified",
+      "sourceParagraphs": [
+        663,
+        664
+      ]
+    },
+    {
+      "id": "geometric-optics-666-uslovie-maksimuma-interferentsii",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Условие максимума интерференции",
+      "latex": "\\Delta s=k\\lambda",
+      "symbols": [
+        {
+          "symbol": "\\Delta s",
+          "meaning": "разность хода лучей",
+          "unit": "м",
+          "sourceParagraph": 668
+        },
+        {
+          "symbol": "\\lambda",
+          "meaning": "длина волны",
+          "unit": "м",
+          "sourceParagraph": 669
+        },
+        {
+          "symbol": "k",
+          "meaning": "номер, порядок максимума (или минимума), целое число",
+          "sourceParagraph": 670
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        666,
+        667
+      ]
+    },
+    {
+      "id": "geometric-optics-671-uslovie-minimuma-interferentsii",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Условие минимума интерференции",
+      "latex": "\\Delta s=(2k+1)\\frac{\\lambda }{2}",
+      "symbols": [
+        {
+          "symbol": "\\Delta s",
+          "meaning": "разность хода лучей",
+          "unit": "м",
+          "sourceParagraph": 668
+        },
+        {
+          "symbol": "\\lambda",
+          "meaning": "длина волны",
+          "unit": "м",
+          "sourceParagraph": 669
+        },
+        {
+          "symbol": "k",
+          "meaning": "номер, порядок максимума (или минимума), целое число",
+          "sourceParagraph": 670
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        671,
+        672
+      ]
+    },
+    {
+      "id": "geometric-optics-674-uslovie-nablyudeniya-glavnyh-maksimumov-difraktsionnoy-reshe",
+      "sectionId": "optics",
+      "topicIds": [
+        "geometric-optics"
+      ],
+      "subtopic": "Оптика",
+      "title": "Условие наблюдения главных максимумов дифракционной решетки",
+      "latex": "d\\sin \\varphi =k\\lambda",
+      "symbols": [
+        {
+          "symbol": "\\lambda",
+          "meaning": "длина волны",
+          "unit": "м",
+          "sourceParagraph": 669
+        },
+        {
+          "symbol": "\\varphi",
+          "meaning": "угол между перпендикуляром к решетке и направлением на дифракционный максимум",
+          "sourceParagraph": 677
+        },
+        {
+          "symbol": "k",
+          "meaning": "номер, порядок максимума, целое число (k=[0, ±1, ±2\\ldots ])",
+          "sourceParagraph": 678
+        },
+        {
+          "symbol": "d",
+          "meaning": "порядок решетки, расстояние между штрихами",
+          "unit": "м",
+          "sourceParagraph": 676
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        674,
+        675
+      ]
+    },
+    {
+      "id": "quantum-basics-682-energiya-fotona",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Энергия фотона",
+      "latex": "{E}_{\\text{ф}}=h\\nu",
+      "symbols": [
+        {
+          "symbol": "{E}_{\\text{ф}}",
+          "meaning": "энергия фотона",
+          "unit": "Дж",
+          "sourceParagraph": 684
+        },
+        {
+          "symbol": "\\nu",
+          "meaning": "частота световой волны",
+          "unit": "Гц",
+          "sourceParagraph": 686
+        },
+        {
+          "symbol": "h",
+          "meaning": "постоянная Планка",
+          "sourceParagraph": 685
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        682,
+        683
+      ]
+    },
+    {
+      "id": "quantum-basics-691-impuls-fotona",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Импульс фотона",
+      "latex": "p=\\frac{E}{c}",
+      "symbols": [
+        {
+          "symbol": "c",
+          "meaning": "скорость света в вакууме",
+          "sourceParagraph": 688
+        },
+        {
+          "symbol": "p",
+          "meaning": "импульс фотона",
+          "unit": "кг· м/с",
+          "sourceParagraph": 687
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        691,
+        692
+      ]
+    },
+    {
+      "id": "quantum-basics-694-uravnenie-eynshteyna-dlya-fotoeffekta",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Уравнение Эйнштейна для фотоэффекта",
+      "latex": "{E}_{\\text{ф}}={A}_{\\text{вых}}+{E}_{\\text{к}}",
+      "symbols": [
+        {
+          "symbol": "{A}_{\\text{вых}}",
+          "meaning": "работа выходя электрона",
+          "unit": "Дж",
+          "sourceParagraph": 689
+        },
+        {
+          "symbol": "{E}_{\\text{к}}",
+          "meaning": "кинетическая энергия электронов",
+          "unit": "Дж",
+          "sourceParagraph": 690
+        },
+        {
+          "symbol": "{E}_{\\text{ф}}",
+          "meaning": "энергия фотона",
+          "unit": "Дж",
+          "sourceParagraph": 684
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        694,
+        695
+      ]
+    },
+    {
+      "id": "quantum-basics-697-krasnaya-granitsa-fotoeffekta",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Красная граница фотоэффекта",
+      "latex": "\\begin{gathered}{\\nu }_{\\text{кр}}=\\frac{{A}_{\\text{вых}}}{h}\\\\{\\lambda }_{\\text{кр}}=\\frac{ch}{{A}_{\\text{вых}}}\\end{gathered}",
+      "symbols": [
+        {
+          "symbol": "{\\lambda }_{\\text{кр}}",
+          "meaning": "красная граница фотоэффекта (максимальная длина волны)",
+          "unit": "м",
+          "sourceParagraph": 702
+        },
+        {
+          "symbol": "{\\nu }_{\\text{кр}}",
+          "meaning": "красная граница фотоэффекта (минимальная частота)",
+          "unit": "Гц",
+          "sourceParagraph": 701
+        },
+        {
+          "symbol": "{A}_{\\text{вых}}",
+          "meaning": "работа выходя электрона",
+          "unit": "Дж",
+          "sourceParagraph": 689
+        },
+        {
+          "symbol": "c",
+          "meaning": "скорость света в вакууме",
+          "sourceParagraph": 688
+        },
+        {
+          "symbol": "h",
+          "meaning": "постоянная Планка",
+          "sourceParagraph": 685
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        697,
+        698,
+        700
+      ]
+    },
+    {
+      "id": "quantum-basics-706-zapirayuschee-napryazhenie",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Запирающее напряжение",
+      "latex": "{U}_{\\text{зап}}=\\frac{{E}_{\\text{к} max}}{e}",
+      "symbols": [
+        {
+          "symbol": "{E}_{\\text{к} max}",
+          "meaning": "максимальная кинетическая энергия вылетевших электронов",
+          "unit": "Дж",
+          "sourceParagraph": 704
+        },
+        {
+          "symbol": "{U}_{\\text{зап}}",
+          "meaning": "запирающее напряжение",
+          "unit": "В",
+          "sourceParagraph": 703
+        },
+        {
+          "symbol": "{E}_{\\text{к}}",
+          "meaning": "кинетическая энергия электронов",
+          "unit": "Дж",
+          "sourceParagraph": 690
+        },
+        {
+          "symbol": "e",
+          "meaning": "заряд электрона, элементарный заряд (есть в справочных данных)",
+          "sourceParagraph": 705
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        706,
+        707
+      ]
+    },
+    {
+      "id": "quantum-basics-709-energiya-izlucheniya-pri-perehode-elektrona-s-odnogo-energet",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Энергия излучения при переходе электрона с одного энергетического уровня на другой",
+      "latex": "{E}_{n}-{E}_{m}=h{\\nu }_{nm}",
+      "symbols": [
+        {
+          "symbol": "{\\nu }_{nm}",
+          "meaning": "частота испускаемого фотона",
+          "unit": "Гц",
+          "sourceParagraph": 712
+        },
+        {
+          "symbol": "{E}_{n}",
+          "meaning": "энергия электрона на орбитали с номером n",
+          "sourceParagraph": 711
+        },
+        {
+          "symbol": "h",
+          "meaning": "постоянная Планка",
+          "sourceParagraph": 685
+        },
+        {
+          "symbol": "{E}_{m}",
+          "meaning": "энергия электрона на другом энергетическом уровне",
+          "sourceParagraph": 709
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        709,
+        710
+      ]
+    },
+    {
+      "id": "quantum-basics-713-spektr-urovney-energii-atoma-vodoroda",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Спектр уровней энергии атома водорода",
+      "latex": "{E}_{n}=\\frac{-13,6}{{n}^{2}}",
+      "symbols": [
+        {
+          "symbol": "{E}_{n}",
+          "meaning": "энергия электрона в атоме водорода на орбитали с номером n",
+          "unit": "эВ",
+          "sourceParagraph": 715
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        713,
+        714
+      ]
+    },
+    {
+      "id": "quantum-basics-717-zakon-radioaktivnogo-raspada",
+      "sectionId": "quantum",
+      "topicIds": [
+        "quantum-basics"
+      ],
+      "subtopic": "Квантовая физика",
+      "title": "Закон радиоактивного распада",
+      "latex": "N={N}_{0}{2}^{-\\frac{t}{T}}",
+      "symbols": [
+        {
+          "symbol": "{N}_{0}",
+          "meaning": "начальное количество автомов радиоактивного элемента",
+          "unit": "-",
+          "sourceParagraph": 720
+        },
+        {
+          "symbol": "T",
+          "meaning": "период полураспада",
+          "sourceParagraph": 721
+        },
+        {
+          "symbol": "N",
+          "meaning": "количество атомов радиоактивного элемента в момент времени t",
+          "unit": "-",
+          "sourceParagraph": 719
+        }
+      ],
+      "conditions": "В файле условия отдельно не указаны.",
+      "explanation": "",
+      "source": "verified",
+      "sourceParagraphs": [
+        717,
+        718
+      ]
+    }
+  ]
+}
